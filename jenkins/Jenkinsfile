@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bt 'mvn test'
+                bat 'mvn test'
             }
             post {
                 always {
